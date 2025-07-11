@@ -1,0 +1,35 @@
+SCREEN_WIDTH = 500
+SCREEN_HEIGHT = 600
+GRID_SIZE = 30
+GRID_WIDTH = 10
+GRID_HEIGHT = 20
+SIDEBAR_WIDTH = 200
+
+PURPLE = "#9A82DB"
+BLACK = "#232323"
+WHITE = "#FFFFFF"
+GRAY = "#535353"
+GREEN = "#326740"
+BLUE = "#0F98E0"
+RED = "#CE3633"
+DARK_BLUE = "#0E306F"
+CREM = "#E6DCAE"
+ORANGE = "#E17210"
+YELLOW = "#FBB210"
+
+SHAPES = [
+    [[1, 1, 1, 1]],
+    [[1, 1], [1, 1]],
+    [[1, 1, 1], [0, 1, 0]],
+    [[1, 1, 1], [1, 0, 0]],
+    [[1, 1, 1], [0, 0, 1]],
+    [[0, 1, 1], [1, 1, 0]],
+    [[1, 1, 0], [0, 1, 1]]
+]
+
+COLORS = [GREEN,BLUE,RED,DARK_BLUE,CREM,ORANGE,YELLOW]
+
+
+FPS = 60
+DROP_SPEED = 0.5
+SPEED_INCREASE = 0.95
