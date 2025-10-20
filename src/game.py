@@ -9,7 +9,7 @@ class Game:
         pygame.display.set_caption("Tetris")
         self.screen = pygame.display.set_mode((SCREEN_WIDTH, SCREEN_HEIGHT))
         self.path_font = "assets/font/Rubik-Bold.ttf"
-        self.path_sound = "assets/sound/move_sound.wav"
+        self.path_sound = "assets/sound/move_sound.wav" 
         self.clock = pygame.time.Clock()
         self.board = Board()
         self.running = True
