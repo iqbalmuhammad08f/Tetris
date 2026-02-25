@@ -11,7 +11,7 @@ class Piece:
         self.rotation = 0
     
     def rotate(self):
-           rows = len(self.shape)
+        rows = len(self.shape)
         cols = len(self.shape[0])
         rotate = [[0 for _ in range(rows)] for _ in range(cols)]
         
